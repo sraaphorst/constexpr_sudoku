@@ -17,4 +17,4 @@ elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
     set(CMAKE_EXE_LINKER_FLAGS "")
 endif()
 
-add_executable(constexpr_sudoku constexpr_sudoku.cpp)
+add_executable(sudoku_constexpr sudoku_constexpr.cpp)

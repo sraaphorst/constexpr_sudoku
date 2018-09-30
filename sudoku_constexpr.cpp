@@ -1,5 +1,5 @@
 /**
- * constexpr_sudoku.cpp
+ * sudoku_constexpr.cpp
  *
  * By Sebastian Raaphorst, 2018.
  *
