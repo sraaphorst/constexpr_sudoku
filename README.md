@@ -1,4 +1,4 @@
-# constexpr_sudoku
+# sudoku_constexpr
 
 This is a C++17 constexpr implementation of a Sudoku board solver, i.e. it solves Sudoku boards
 at compile-time.
@@ -17,3 +17,5 @@ I have an implementation of DLX and a Sudoku solver using DLX coded in C and Pyt
 The Python implementation can be found here on GitHub:
 
 https://github.com/sraaphorst/dlxpy/blob/master/examples/sudoku.py
+
+Using what is considered an expert-level Sudoku board (as defined in the implementation), on my MacBook, compilation takes approximately 3.5 minutes.
