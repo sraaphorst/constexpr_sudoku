@@ -232,7 +232,7 @@ public:
         for (unsigned i = 1; i <= N; ++i) {
             const auto ns = GenSudoku(*this).put(x, y, i);
             const auto res = ns.solve();
-            if (res.isComplete() && res.isValid()) return res;
+            if (res.isSolved()) return res;
         }
 
         return *this;
