@@ -19,3 +19,5 @@ The Python implementation can be found here on GitHub:
 https://github.com/sraaphorst/dlxpy/blob/master/examples/sudoku.py
 
 Using what is considered an expert-level Sudoku board (as defined in the implementation), on my MacBook, compilation takes approximately 3.5 minutes.
+
+**NOTE:** This may not run under GCC due to GCC complaining that the call to solve is not actually `constexpr`. I suggest using clang instead.
