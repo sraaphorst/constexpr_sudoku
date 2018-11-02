@@ -24,11 +24,11 @@ https://github.com/sraaphorst/dlxpy/blob/master/examples/sudoku.py
 
 Using what is considered an expert-level Sudoku board (as hard-coded in the implementation), on my MacBook, compilation takes approximately 3.5 minutes.
 
-Using the well-known, extreme Sudoku from here:
+Using the well-known, extreme Sudoku from here (also hard-coded in the implementation):
 
 https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html
 
-Compilation takes slightly over 20 minutes on my MacBook.
+compilation takes slightly over 20 minutes on my MacBook.
 
 ## Compilation
 
