@@ -1,5 +1,7 @@
 # sudoku_constexpr
 
+**Status:** Complete, verson 1.0.0.
+
 This is a C++17 constexpr implementation of a Sudoku board solver, i.e. it solves Sudoku boards
 at compile-time.
 
