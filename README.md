@@ -18,6 +18,16 @@ The Python implementation can be found here on GitHub:
 
 https://github.com/sraaphorst/dlxpy/blob/master/examples/sudoku.py
 
-Using what is considered an expert-level Sudoku board (as defined in the implementation), on my MacBook, compilation takes approximately 3.5 minutes.
+## Performance
 
-**NOTE:** This may not run under GCC due to GCC complaining that the call to solve is not actually `constexpr`. I suggest using clang instead.
+Using what is considered an expert-level Sudoku board (as hard-coded in the implementation), on my MacBook, compilation takes approximately 3.5 minutes.
+
+Using the well-known, extreme Sudoku from here:
+
+https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html
+
+Compilation takes slightly over 20 minutes on my MacBook.
+
+## Compilation
+
+This may not run under GCC due to GCC complaining that the call to solve is not actually `constexpr`. I suggest using clang instead.
